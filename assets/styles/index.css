@@ -1,1 +1,54 @@
-/*# sourceMappingURL=index.css.map */
+body {
+  background-color: rgb(233, 207, 177);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px 15px;
+  grid-template-areas: "div1 div2 div3" "div1 div4 div5" "div1 div6 div7";
+}
+@media screen and (max-width: 640px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.container .div1 {
+  cursor: pointer;
+  grid-area: div1;
+}
+.container .div2 {
+  cursor: pointer;
+  grid-area: div2;
+}
+.container .div3 {
+  grid-area: div3;
+}
+.container .div4 {
+  grid-area: div4;
+}
+.container .div5 {
+  grid-area: div5;
+}
+.container .div6 {
+  grid-area: div6;
+}
+.container .div7 {
+  grid-area: div7;
+}
+.container div img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

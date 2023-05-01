@@ -1,0 +1,7 @@
+// Fichier central qui a pour but d'importer tous les autres fichiers pour permettre un seul import dans mon projet.
+
+// pages
+@import "./settings";
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/section1";
