@@ -2,6 +2,14 @@
   @media screen and (max-width: 640px) {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas:
+    "div1"
+    "div2"
+    "div3"
+    "div4"
+    "div5"
+    "div6"
+    "div7";
   }
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
