@@ -1,6 +1,6 @@
 section {
 
-
+  
   @media screen and (max-width: 640px) {
     display: grid;
     padding: 30px;
@@ -14,11 +14,12 @@ section {
     "div6"
     "div7";
   }
+  
 padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 15px 15px;
+  gap:10px;
   grid-template-areas:
     "div1 div2 div3"
     "div1 div4 div5"
@@ -51,7 +52,7 @@ padding: 30px;
   }
   div {
     img {
-     width: 100%;
+      width:100%;
      height: 100%;
       cursor: pointer;
     
