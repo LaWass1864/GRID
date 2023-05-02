@@ -11,7 +11,8 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+section {
+  padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -19,36 +20,37 @@ body {
   grid-template-areas: "div1 div2 div3" "div1 div4 div5" "div1 div6 div7";
 }
 @media screen and (max-width: 640px) {
-  .container {
+  section {
     display: grid;
+    padding: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: "div1" "div2" "div3" "div4" "div5" "div6" "div7";
   }
 }
-.container .div1 {
+section .div1 {
   cursor: pointer;
   grid-area: div1;
 }
-.container .div2 {
+section .div2 {
   cursor: pointer;
   grid-area: div2;
 }
-.container .div3 {
+section .div3 {
   grid-area: div3;
 }
-.container .div4 {
+section .div4 {
   grid-area: div4;
 }
-.container .div5 {
+section .div5 {
   grid-area: div5;
 }
-.container .div6 {
+section .div6 {
   grid-area: div6;
 }
-.container .div7 {
+section .div7 {
   grid-area: div7;
 }
-.container div img {
+section div img {
   width: 100%;
   height: 100%;
   cursor: pointer;
